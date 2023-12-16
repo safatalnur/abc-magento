@@ -1,0 +1,22 @@
+{
+    "name": "Abc/showroom",
+    "description": "An e-commerce online showroom store",
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": "~8.2.0||~8.3.0",
+        "magento/framework": "*",
+        "Abc/showroom": "*"
+    },
+    "type": "magento2-theme",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
